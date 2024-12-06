@@ -12,19 +12,25 @@
 
 void main(void) {
     // Initialize hardware
+ interrupts_init();
+gpio_init();
+  uart_init(); 
     timer_init();
-   // gpio_init();
-   // interrupts_init();
- //   keyboard_init(GPIO_PIN_PS2_CLK, GPIO_PIN_PS2_DATA);
+   keyboard_init(GPIO_PG12, GPIO_PB7);
     
     // Initialize game
     Game game;
     game_init(&game);
+    interrupts_global_enable();
+  game_render(&game);
+       
     
     // Game loop
     while (1) {
-        game_update(&game);
+
+        handle_input(&game);
+      //  game_update(&game);
         game_render(&game);
-        timer_delay_ms(16);  // ~60 FPS
+        timer_delay_ms(16);
     }
 }
