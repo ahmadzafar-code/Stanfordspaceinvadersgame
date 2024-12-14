@@ -47,6 +47,10 @@ Any trying or heroic moments you would like to share? Of what are you particular
 the effort you put into it? the end product? the process you followed?
 what you learned along the way? Tell us about it!
 
+Even though we ended up implementing something different from our original proposal for the final product, we are proud of how we pivoted and creatively developed a working solution. While we technically implemented our initial idea, it was too slow, and we wanted a final project that actually worked and was fun to play. We're proud of how we worked around these challenges to create a final project that was fast enough to be enjoyable.
+For us, this was a heroic moment - we saved the day and our final demo! When we faced a major technical bottleneck with the graphics rendering for the moving bears, we came up with a creative solution. Instead of trying to optimize the bears' movement, which wasn't working despite our best efforts, we flipped the concept and made the shooter move upward instead. This clever twist achieved the same exciting gameplay feel as Space Invaders while bypassing our rendering limitations entirely.
+We learned the importance of teamwork and being creative in solving issues. We also learned not to be afraid to pivot from our original plans, as we might end up with an even better project! This was a fun class filled with challenges that we're proud to have overcome.
+
 ## Photos
 You are encouraged to submit photos/videos of your project in action. 
 Add the files and commit to your project repository to include along with your submission.
