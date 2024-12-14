@@ -4,8 +4,7 @@
 # Link against your libmango + reference libmango (edit LDLIBS, LDFLAGS to change)
 
 PROGRAM = myprogram.bin
-SOURCES = $(PROGRAM:.bin=.c) mymodule.c 
-
+SOURCES = $(PROGRAM:.bin=.c) gg.c ps2.c keyboard.c fb.c gl.c audio.c
 all: $(PROGRAM)
 
 # Flags for compile and link
