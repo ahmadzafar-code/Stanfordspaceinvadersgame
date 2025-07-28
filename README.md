@@ -1,4 +1,4 @@
-## Project title
+## CS107e - Class Project 
 
 Pi Invaders - Big Game Edition
 
